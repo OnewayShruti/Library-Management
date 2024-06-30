@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "183d7834-7941-44ba-af90-25ac3c2d46a1",
+		"name": "BookManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33167048"
+	},
+	"item": [
+		{
+			"name": "list-all-books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/book-management/list-all-books"
+			},
+			"response": []
+		},
+		{
+			"name": "add-new-book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/api/book-management/add-new-book"
+			},
+			"response": []
+		},
+		{
+			"name": "update-book-by-Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8080/api/book-management/update-book-by-Id/{bookId}"
+			},
+			"response": []
+		},
+		{
+			"name": "delete-book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/api/book-management/delete-book/1"
+			},
+			"response": []
+		}
+	]
+}

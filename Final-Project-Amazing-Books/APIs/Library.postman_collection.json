@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "5ca1ea5d-8cbb-4200-b290-1a70c4b0fe26",
+		"name": "Library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33167048"
+	},
+	"item": [
+		{
+			"name": "list-book-details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/library/list-book-details"
+			},
+			"response": []
+		},
+		{
+			"name": "update-copies-by-Id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8080/api/library/update-copies-by-Id"
+			},
+			"response": []
+		},
+		{
+			"name": "issue-book-to-customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": "http://localhost:8080/api/library/issue-book-to-customer/{customerId}"
+			},
+			"response": []
+		},
+		{
+			"name": "add-book-details",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8080/api/library/add-book-details"
+			},
+			"response": []
+		}
+	]
+}
